@@ -7,6 +7,6 @@ for(let i = 0; i < 64; i++){
 const boxes = document.querySelector(".box");
 boxes.forEach(element => {
     element.addEventListener("click", (event) => {
-        event.target.style.backgorundColor = "#ff0000";
+        event.target.style.backgroundColor = "#ff0000";
    }) 
 })
